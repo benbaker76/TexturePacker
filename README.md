@@ -1,9 +1,11 @@
 # Texture Packer
 
 ## About
+
 Texture Packer is a program that packs images into textures for use in OpenGL and DirectX applications. It creates a data file which gives the name and coordinates of each image in the texture. These are also known as a texture atlas. It uses a rectangle packing algorithm based on the pseudo code in the [article by Jim Scott](http://www.blackpawn.com/texts/lightmaps/default.html).
 
 ## Features
+
 - Supports .png, .bmp, .jpg, .gif and .tif image formats
 - Recursively process a directory of images
 - Output to text or xml format
@@ -15,9 +17,11 @@ Texture Packer is a program that packs images into textures for use in OpenGL an
 - Includes Sprite Sheet Slicer tool for cutting up sprite sheets into separate image files
 
 ## Screenshots
-![](/images/texpack.png)
+
+![](/.github/img/TexturePacker.png?raw=true)
 
 ## Release Notes
+
 | Date |Description |
 |---|---|
 | 15-08-2012 | v1.6.1 - Faster image file size reading |

@@ -4,4 +4,12 @@
     <NXTargetSerialNumber />
     <NXTargetName>Default</NXTargetName>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSpriteSlicer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
 </Project>
