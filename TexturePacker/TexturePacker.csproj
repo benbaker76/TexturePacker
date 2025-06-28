@@ -10,6 +10,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<Content Include="App.ico" />
 		<Content Include="../README.md" Pack="true" PackagePath="\" />
 		<None Include="../LICENSE" Pack="true" PackagePath="\" />
 	</ItemGroup>
@@ -20,6 +21,7 @@
 		<FileVersion>1.6.1.0</FileVersion>
 		<PackageVersion>1.6.1</PackageVersion>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<ApplicationIcon>App.ico</ApplicationIcon>
 	</PropertyGroup>
 
 </Project>
